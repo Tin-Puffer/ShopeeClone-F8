@@ -1,0 +1,90 @@
+:root{
+    --while-colo:#fff;
+    --black-colo:#000;
+    --tex-colo:#333;
+    --primary-colo:#ee4d2d;
+    --header-heigh: 120px;
+    --navbar-heigh:38px;
+    --header-search-heigh: calc(var(--header-heigh) - var(--navbar-heigh))
+
+}
+*{
+    box-sizing: border-box;
+}
+h5{
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.gird__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bold{
+    font-weight: 900;
+}
+.brid{
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 100%;
+}
+.btn{
+    min-width: 142px;
+    min-height: 36px;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+     */
+}
+.btn:hover{
+    opacity: 0.8    ;
+}
+.btn.bnt-disible{
+    background-color: #999;
+    cursor: auto;
+    opacity: 0.5;
+}
+button{
+    margin: 0;
+}
+.select-input{
+    position: relative;
+    height: 34px;
+    padding: 0 12px;
+    border-radius: 2px;
+    min-width: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@keyframes hazy{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes grownoti{
+    from{
+        transform: scale(0);
+        opacity: 0.3;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
